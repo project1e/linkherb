@@ -34,7 +34,6 @@ body{
     max-height: fit-content;
     margin: auto;
     padding-top: 40px;
-    padding-bottom: 10px;
 }
 
 .avatar {
@@ -44,8 +43,21 @@ body{
   border-radius: 50%;
 }
 
+#handle{
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+}
+
+#handle-text{
+    font-family: Pacifico;
+    font-size: 26px;
+    font-weight: bold;
+    margin: auto;
+}
+
 .social-icon{
-    font-size: 48px;
+    font-size: 44px;
     color: black;
     text-decoration: none;
 }
@@ -59,6 +71,7 @@ body{
 
 #linkherb{
     color: green;
+    font-family: "Bree Serif";
     font-size: larger;
     font-weight: bold;
     text-decoration: none;
