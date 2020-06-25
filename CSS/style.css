@@ -90,7 +90,7 @@ body{
     text-decoration: none;
     padding: 8px;
     border: 2px solid green;
-    border-radius: 20%;
+    border-radius: 12px;
 }
 
 #linkherb:hover{
