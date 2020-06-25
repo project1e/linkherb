@@ -40,7 +40,7 @@ body{
   vertical-align: middle;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 #handle{
@@ -56,14 +56,27 @@ body{
     margin: auto;
 }
 
+#socials{
+    padding: 40px;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+}
+
 .social-icon{
     font-size: 44px;
     color: black;
     text-decoration: none;
 }
 
-#socials{
-    padding: 40px;
+.social-icon:hover{
+    font-size: 52px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+
+#platform{
     max-width: fit-content;
     max-height: fit-content;
     margin: auto;
@@ -75,10 +88,14 @@ body{
     font-size: larger;
     font-weight: bold;
     text-decoration: none;
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 20%;
 }
 
-#platform{
-    max-width: fit-content;
-    max-height: fit-content;
-    margin: auto;
+#linkherb:hover{
+    background-color: green;
+    color: white;
 }
+
+
