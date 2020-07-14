@@ -1,75 +1,116 @@
 body{
-    background-color: antiquewhite;
-    /*Signal*/
-    /*
-    background-color: #ffffff;
-    background-image: url(
-        "data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%233d029c' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
-    */
-
-    /*Pixel Dots*/
-    /*
-    background-color: #ffffff;
-    background-image: url(
-        "data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23400898' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
-    */
-
-    /*Polka Dots*/
-    /*
-    background-color: #ffffff;
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23420b9a' fill-opacity='1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
-    */
-
-    /*Parkay Floor*/
-    /*
-    background-color: #ffffff;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%233d0694' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
-    */
-
-    /*You can find more of these patterns at https://www.heropatterns.com/ */
+    background-color: #4112ed41;
 }
 
-#image{
-    max-width: fit-content;
-    max-height: fit-content;
-    margin: auto;
-    padding-top: 40px;
+a{
+    text-decoration: none;
 }
 
-.avatar {
-  vertical-align: middle;
+.centerProperty{
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer{
+    margin-top: 20px;
+}
+
+#image {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-}
-
-#handle{
-    max-width: fit-content;
-    max-height: fit-content;
-    margin: auto;
 }
 
 #handle-text{
     font-family: Pacifico;
     font-size: 26px;
     font-weight: bold;
-    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 18px;
 }
 
-#socials{
-    padding: 40px;
-    max-width: fit-content;
-    max-height: fit-content;
-    margin: auto;
+.link-button{
+    margin: 26px;
+    text-align: center;
+    font-family: "ABeeZee";
+    font-weight: bold;
+
+}
+
+.link-button-text{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 12px;
+}
+
+#button1{
+    color: red;
+    border: 2px solid red;
+}
+
+#button1:active{
+    color: white;
+    background-color: red;
+}
+
+#button2{
+    color: blue;
+    border: 2px solid blue;
+}
+
+#button2:active{
+    color: white;
+    background-color: blue;
+}
+
+#button3{
+    color: brown;
+    border: 2px solid brown;
+}
+
+#button3:active{
+    color: white;
+    background-color: brown;
+}
+
+#button4{
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+#button4:active{
+    color: white;
+    background-color: orangered;
+}
+
+#button5{
+    color: darkcyan;
+    border: 2px solid darkcyan;
+}
+
+#button5:active{
+    color: white;
+    background-color: darkcyan;
+}
+
+#button6{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+#button6:active{
+    color: white;
+    background-color: blueviolet;
 }
 
 .social-icon{
     font-size: 44px;
     color: black;
-    text-decoration: none;
 }
 
-.social-icon:hover{
+.social-icon:active{
     font-size: 52px;
     background-color: black;
     color: white;
@@ -77,9 +118,8 @@ body{
 }
 
 #platform{
-    max-width: fit-content;
-    max-height: fit-content;
-    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #linkherb{
@@ -87,13 +127,12 @@ body{
     font-family: "Bree Serif";
     font-size: larger;
     font-weight: bold;
-    text-decoration: none;
     padding: 8px;
     border: 2px solid green;
     border-radius: 12px;
 }
 
-#linkherb:hover{
+#linkherb:active{
     background-color: green;
     color: white;
 }
